@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/ricardor2soft/r2-summer-note/issues"
   },
-  "homepage": "https://github.com/ricardor2soft/r2-summer-note#readme",
-  "dependencies": {
-    "summernote": "^0.8.20"
-  }
+  "homepage": "https://github.com/ricardor2soft/r2-summer-note#readme"  
 }
