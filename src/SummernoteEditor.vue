@@ -16,7 +16,7 @@ if (!window.SUMMERNOTE_DEFAULT_CONFIGS) {
 
 export default {
   props: {
-    summerDisable: {
+    disable: {
       type: Boolean,
       default: false
     },
@@ -64,7 +64,7 @@ export default {
   },
   methods: {
     summerDisable(){
-      if(this.summerDisable){
+      if(this.disable){
         $(this.elem).summernote('disable');
       }else{
         $(this.elem).summernote('enable');
