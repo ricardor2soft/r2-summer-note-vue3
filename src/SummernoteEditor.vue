@@ -3,9 +3,9 @@
 </template>
 
 <script>
-// import $ from "jquery";
-// // You must import summernote js and css for yourself
-// import summernote from "summernote";
+import $ from "jquery";
+// You must import summernote js and css for yourself
+import summernote from "summernote";
 
 // https://summernote.org/deep-dive/#callbacks
 import events from "./events";
