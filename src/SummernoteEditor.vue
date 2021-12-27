@@ -6,7 +6,7 @@
 import $ from "jquery";
 // You must import summernote js and css for yourself
 import summernote from "summernote";
-
+import 'summernote/dist/summernote.min.css'
 // https://summernote.org/deep-dive/#callbacks
 import events from "./events";
 

@@ -5,7 +5,7 @@ A VueJs 3 component for use [Summernote WYSIWYG](https://summernote.org/)
 ## Install
 ``` cmd
 // npm install
-npm install vue3-summernote-editor --save
+npm install r2-summer-note-vue3 --save
 ```
 
 You must be have `jQuery` at `window.$` and install summernote by yourself.
@@ -14,7 +14,7 @@ You must be have `jQuery` at `window.$` and install summernote by yourself.
 1. import as global component.
 ``` javascript
 // import SummernoteEditor
-import SummernoteEditor from 'vue3-summernote-editor';
+import SummernoteEditor from 'r2-summer-note-vue3';
 
 
 const vueApp = createApp({});
@@ -25,7 +25,7 @@ vueApp.component('SummernoteEditor', SummernoteEditor);
 2. import into a single component.
 ``` javascript
 // import SummernoteEditor
-import SummernoteEditor from 'vue3-summernote-editor';
+import SummernoteEditor from 'r2-summer-note-vue3';
 
 <template>
   <SummernoteEditor
