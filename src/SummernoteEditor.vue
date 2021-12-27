@@ -16,6 +16,10 @@ if (!window.SUMMERNOTE_DEFAULT_CONFIGS) {
 
 export default {
   props: {
+    summerDisable: {
+      type: Boolean,
+      default: false
+    },
     modelValue: {
       default: null,
       required: true,
@@ -45,17 +49,27 @@ export default {
     if (this.modelValue) {
       $(this.elem).summernote("code", this.modelValue);
     }
+    this.summerDisable();
     this.registerEvents();
   },
   watch: {
+    
     modelValue(newValue) {
       const currValue = $(this.elem).summernote("code");
       if (newValue != currValue) {
         $(this.elem).summernote("code", newValue);
       }
+      this.summerDisable();
     },
   },
   methods: {
+    summerDisable(){
+      if(this.summerDisable){
+        $(this.elem).summernote('disable');
+      }else{
+        $(this.elem).summernote('enable');
+      }
+    },
     onChange(event) {
       const value = $(this.elem).summernote("code");
       this.$emit("update:modelValue", value);
