@@ -6,8 +6,9 @@
 import $ from "jquery";
 import jQuery from "jquery";
 // You must import summernote js and css for yourself
-import summernote from "summernote";
-import 'summernote/dist/summernote.min.css'
+import summernote from "r2-summer-note";
+
+import 'r2-summer-note/dist/summernote.min.css'
 // https://summernote.org/deep-dive/#callbacks
 import events from "./events";
 

@@ -1,6 +1,6 @@
 {
   "name": "r2-summer-note-vue3",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Pacote Summer Not para Vue3",
   "main": "src/SummernoteEditor.vue",
   "scripts": {
