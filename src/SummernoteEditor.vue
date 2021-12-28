@@ -4,6 +4,7 @@
 
 <script>
 import $ from "jquery";
+import jQuery from "jquery";
 // You must import summernote js and css for yourself
 import summernote from "summernote";
 import 'summernote/dist/summernote.min.css'
